@@ -3,23 +3,26 @@
    *{
     margin: 0px;
     padding:0px;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+
   }
   .nav-tabs {
     text-align:center;
   }
 
 
-  .nav_tab_item{
-    background: #eee;
+  ./*nav_tab_item{
+    background: #f5f5f5;
     border: 1px solid #ddd !important;
-    width: 33%;
+    width: 27%;
     font-size: 20px;
-    color:#666;
+    color:#b0b0b0;
     font-weight: 300;
-  }
+  }*/
   .tab_title{
-    font-size: 12px;
+    font-size: 12px !important;
+    line-height: 6px;
   }
 
   
@@ -85,7 +88,10 @@
 
 .fa-green{
   color:green;
-  font-weight: 100;
+  font-weight: lighter;
+  /*-webkit-text-stroke: 1px white;*/
+  /*font-size: 14px;*/
+  /*-webkit-text-stroke: 1px background-color;*/
 }
 
 .fa-red{
@@ -117,15 +123,17 @@
 }
 
 .nav_tab_item  {
-  background: #eee;
+  background: #f5f5f5;
   border-bottom: 0px solid #ddd !important;
-  width: 30%;
+  border: 1px solid #ddd !important;
+  width: 27%;
   font-size: 20px;
-  color: #666;
+  color: #929292;
   font-weight: 300;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
   color: #000 !important;
+  border-bottom:none !important; 
 }
 .phone_icon_nav{
   font-size: 40px;
@@ -145,12 +153,21 @@
 }
 
 .flag_icon{
+  height: 20px;
+  border: 1px solid #666;
+}
+.flag_menu_icon{
   height: 27px;
+  border: 1px solid #666;
+}
+.navbar-brand>img{
+  margin-left:25px;
+  height: 40px;
+  width: 155px;
+
 }
 
-.navbar-brand{
-  margin-left:25px;
-}
+
 .nav-item-right-menu-li-country{
   margin-top:16px;
   padding: 0px;
@@ -384,15 +401,22 @@ ul#horizontal-list li {
   margin-bottom: -10px;
 }
 
-.contact_us_dropdown{
+.contact_us_dropdown>a{
   font-size: 14px;
-  line-height: 7px;
+  line-height: 5px;
+  text-decoration: none;
+  color:#333;
+}
+
+.contact_us_dropdown{
+  line-height: 5px;
 }
 
 .contact_us_menu_dropdwon{
   padding-left: 20px;
   padding-right: 20px;
-  width: 350px;
+  width: 378px;
+
 }
 
 
@@ -414,5 +438,56 @@ ul#horizontal-list li {
   color:#000;
   background: #fafafa;
   border-color:#666; 
+}
 
+.package_card:hover{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.5)!important;
+}
+
+
+.dropdown-country{
+  height: 120px;
+  max-height: 120px;
+  width: auto;
+  overflow-x: scroll;
+  overflow-x: hidden;
+}
+
+.dropdown-country-item{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/*Validation color*/
+  .bcolor{
+    border-color: red !important;
+  }
+  .green_bcolor{
+    border: 1px solid green !important;
+  }
+  .label{
+    margin-left: 18px;
+    font-size: 13px; 
+    background: #fff;
+    color:#2196f3b8;
+    padding: 0px 3px 0px 3px;
+  }
+  .label_val{
+    color:red;
+  }
+
+  .green_label_val{
+    color:green;
+  }
+.view-more-faq{
+  color:#33a5fa;
+}
+
+#Country_contact_details>a{
+  color:#333;
+  text-decoration: none !important: 
+}
+
+.job_inr{
+  font-size: 14px;
 }
