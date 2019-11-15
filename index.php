@@ -96,8 +96,8 @@
               <span id="ist_time_details"></span>
             </small></p>
 
-            <p class="contact_us_dropdown"><b>Email us at:</b> <a href = "mailto: buyonline@monsterindia.com"><u>buyonline@monsterindia.com</u></a>
-            </p>
+            <div class="contact_us_dropdown_email"><b>Email us at:</b> <a href = "mailto: buyonline@monsterindia.com" style="color:#333"><u>buyonline@monsterindia.com</u></a>
+            </div>
           </div>
         </div>
       </li>
@@ -157,10 +157,10 @@
                     <div class="row">
 
                       <div class="col-md-12" align="center">
+
                         <br/>
-                        <br/>
-                        <h1>Discover a <b>Faster, Flexible</b> Way to Find Talent</h1>
-                        <h5>Choose from Monster's Online Products to Speed Up Your Talent Search</h5>
+                        <div class=""><span class="custom_heading"> Discover a </span><span id="heading_bold">Faster, Flexible</span> <span class="custom_heading"> Way to Find Talent</span></div>
+                        <div class="custom_subheading">Choose from Monster's Online Products to Speed Up Your Talent Search</div>
                       </div>
                     </div>
                   </div>
@@ -199,21 +199,21 @@
                             <div class="col-md-6 india-gulf col-sm-6 col-lg-6 col-xs-6">
                               <div class="card shadow package_card">
                                 <div class="card-body">
-                                  <h4 class="card-title text-center">QUICK  JOB POST</h4>
+                                  <h4 class="card-title text-center job-posting-headings">QUICK  JOB POST</h4>
 
                                   <h1 class="card-subtitle mb-2 text-muted text-center">
                                    <span class="currency_sym text-success"><i class="fa fa-inr" aria-hidden="true"></i></span><span class="text-success">1400</span>
                                  </h1>
 
-                                 <p class="p_item card-text"><i class="fa fa-check fa-green" aria-hidden="true"></i> Posted Job will remain live for <b>30 days</b></p>
-                                 <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> Receive applications on registered <b>Email ID</b></p>
-                                 <p class="p_item"><i class="fa fa-times fa-red" aria-hidden="true"></i> <b>Company info</b> in Job Posting</p>
-                                 <p class="p_item"><i class="fa fa-times fa-red" aria-hidden="true"></i> Access to <b>Monster's Application Management System</b></p>
+                                 <p class="p_item card-text"><span class="icon light green check-icon"></span> Posted Job will remain live for <b>30 days</b></p>
+                                 <p class="p_item"><span class="icon light green check-icon"></span> Receive applications on registered <b>Email ID</b></p>
+                                 <p class="p_item"><span class="icon light red cross-icon"></span> <b>Company info</b> in Job Posting</p>
+                                 <p class="p_item"><span class="icon light red cross-icon"></span> Access to <b>Monster's Application Management System</b></p>
                                  <hr/>
                                  <div class="row">
                                   <div class="col-md-2" style="margin-top: 5px; padding-top: 0px;padding-bottom: 0px;padding-right: 0px">  Qty: </div>
                                   <div class="col-md-7" style="margin: 0px; padding: 0px;">
-                                    <select class="form-control" size="sm" id="exampleFormControlSelect1" style="font-size:13px;  background: #eee; color:#333; margin: 0px; margin-left: -15px;">
+                                    <select class="form-control select_job_package" size="sm" id="exampleFormControlSelect1">
                                       <option> 1 Job Posting (&#x20b9; 700 Per Job)</option>
                                       <option>2 Job Posting (&#x20b9; 700 Per Job)</option>
                                       <option>3 Job Posting (&#x20b9; 700 Per Job)</option>
@@ -237,20 +237,20 @@
                           <div class="col-md-6 col-sm-6 india-gulf col-lg-6">
                             <div class="card shadow package_card">
                               <div class="card-body">
-                                <h4 class="card-title text-center">PREMIUM JOB POST</h4>
+                                <h4 class="card-title text-center job-posting-headings">PREMIUM JOB POST</h4>
                                 <h1 class="card-subtitle mb-2 text-muted text-center">
                                  <span class="currency_sym text-success"><i class="fa fa-inr" aria-hidden="true"></i></span><span class="text-success">1799</span>
                                </h1>
 
-                               <p class="p_item card-text"><i class="fa fa-check fa-green" aria-hidden="true"></i> Posted Job will remain live for <b>180 days</b></p>
-                               <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> Receive applications on registered <b>Email ID</b></p>
-                               <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> <b>Company info</b> in Job Posting</p>
-                               <p class="p_item"><i class="fa fa-check fa-green" fa-red" aria-hidden="true"></i> Access to <b>Monster's Application Management System</b></p>
+                               <p class="p_item card-text"><span class="icon light green check-icon"></span> Posted Job will remain live for <b>180 days</b></p>
+                               <p class="p_item"><span class="icon light green check-icon"></span> Receive applications on registered <b>Email ID</b></p>
+                               <p class="p_item"><span class="icon light green check-icon"></span> <b>Company info</b> in Job Posting</p>
+                               <p class="p_item"><span class="icon light green check-icon"></span> Access to <b>Monster's Application Management System</b></p>
                                <hr/>
                                <div class="row">
                                 <div class="col-md-2" style="margin-top: 5px; padding-top: 0px;padding-bottom: 0px;padding-right: 0px">  Qty: </div>
                                 <div class="col-md-7" style="margin: 0px; padding: 0px;">
-                                  <select class="form-control" size="sm" id="exampleFormControlSelect1" style="font-size:13px; background: #eee; color:#333; margin: 0px; margin-left: -15px;">
+                                  <select class="form-control select_job_package" size="sm" id="exampleFormControlSelect1">
                                     <option> 1 Job Posting (&#x20b9; 1799 Per Job)</option>
                                     <option>2 Job Posting (&#x20b9; 700 Per Job)</option>
                                     <option>3 Job Posting (&#x20b9; 700 Per Job)</option>
@@ -274,20 +274,20 @@
                         <div class="col-md-6 hongkong col-sm-6 col-lg-6 offset-3">
                           <div class="card shadow package_card">
                             <div class="card-body">
-                              <h4 class="card-title text-center">PREMIUM JOB POST</h4>
+                              <h4 class="card-title text-center job-posting-headings">PREMIUM JOB POST</h4>
                               <h1 class="card-subtitle mb-2 text-muted text-center">
                                <span class="currency_sym text-success"><i class="fa fa-inr" aria-hidden="true"></i></span><span class="text-success">25000</span>
                              </h1>
 
-                             <p class="p_item card-text"><i class="fa fa-check fa-green" aria-hidden="true"></i> Posted Job will remain live for <b>60 days</b></p>
-                             <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> Receive applications on registered <b>Email ID</b></p>
-                             <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> <b>Company info</b> in Job Posting</p>
-                             <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> Access to <b>Monster's Application Management System</b></p>
+                             <p class="p_item card-text"><span class="icon light green check-icon"></span> Posted Job will remain live for <b>60 days</b></p>
+                             <p class="p_item"><span class="icon light green check-icon"></span> Receive applications on registered <b>Email ID</b></p>
+                             <p class="p_item"><span class="icon light green check-icon"></span> <b>Company info</b> in Job Posting</p>
+                             <p class="p_item"><span class="icon light green check-icon"></span> Access to <b>Monster's Application Management System</b></p>
                              <hr/>
                              <div class="row">
                               <div class="col-md-2" style="margin-top: 5px; padding-top: 0px;padding-bottom: 0px;padding-right: 0px">  Qty: </div>
                               <div class="col-md-7" style="margin: 0px; padding: 0px;">
-                                <select class="form-control" size="sm" id="exampleFormControlSelect1" style="font-size:13px; background: #eee; color:#333; margin: 0px; margin-left: -15px;">
+                                <select class="form-control select_job_package" size="sm" id="exampleFormControlSelect1">
                                   <option> 2 Job Posting (&#x20b9; 1799 Per Job)</option>
                                   <option>2 Job Posting (&#x20b9; 700 Per Job)</option>
                                   <option>3 Job Posting (&#x20b9; 700 Per Job)</option>
@@ -312,15 +312,15 @@
                       <div class="col-md-6 others col-sm-6 col-lg-6 offset-3">
                         <div class="card shadow package_card">
                           <div class="card-body">
-                            <h4 class="card-title text-center">PREMIUM JOB POST</h4>
+                            <h4 class="card-title text-center job-posting-headings">PREMIUM JOB POST</h4>
                             <h1 class="card-subtitle mb-2 text-muted text-center">
                              <span class="currency_sym text-success"><i class="fa fa-inr" aria-hidden="true"></i></span><span class="text-success">21000</span>
                            </h1>
 
-                           <p class="p_item card-text"><i class="fa fa-check fa-green" aria-hidden="true"></i> Posted Job will remain live for <b>30 days</b></p>
-                           <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> Receive applications on registered <b>Email ID</b></p>
-                           <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> <b>Company info</b> in Job Posting</p>
-                           <p class="p_item"><i class="fa fa-check fa-green" aria-hidden="true"></i> Access to <b>Monster's Application Management System</b></p>
+                           <p class="p_item card-text"><span class="icon light green check-icon"></span> Posted Job will remain live for <b>30 days</b></p>
+                           <p class="p_item"><span class="icon light green check-icon"></span> Receive applications on registered <b>Email ID</b></p>
+                           <p class="p_item"><span class="icon light green check-icon"></span> <b>Company info</b> in Job Posting</p>
+                           <p class="p_item"><span class="icon light green check-icon"></span> Access to <b>Monster's Application Management System</b></p>
                            <hr/>
                            <div class="row">
                             <div class="col-md-2" style="margin-top: 5px; padding-top: 0px;padding-bottom: 0px;padding-right: 0px">  Qty: </div>
@@ -367,12 +367,12 @@
                           <div class="text-center card_package_title">
                             <span><b>3 DAYS</b></span>
                           </div>
-                          <div class="text-center card_package_subtitle"> <small class="text-muted text-center">All India Database Accessos</small> </div>
-                          <div class="text-center card_package_subtitle"> <small class="text-muted text-center">+1 Premium Job Posting</small> </div>
+                          <div class="text-center card_package_subtitle"> All India Database Accessos </div>
+                          <div class="text-center card_package_subtitle"> +1 Premium Job Posting </div>
 
                         </div>
                         <div class="card-body">
-                         <h2 class="card-subtitle mb-2 text-muted text-center">
+                         <h2 class="card-subtitle mb-2 text-muted text-center card-job-pirce">
                            <span class="currency_sym_card text-success"><i class="fa fa-inr" aria-hidden="true"></i></span><span class="text-success">3499</span>
                          </h2>
 
@@ -393,12 +393,12 @@
                         <div class="text-center card_package_title">
                           <span><b>7 DAYS</b></span>
                         </div>
-                        <div class="text-center card_package_subtitle"> <small class="text-muted text-center">All India Database Accessos</small> </div>
-                        <div class="text-center card_package_subtitle"> <small class="text-muted text-center">+2 Premium Job Posting</small> </div>
+                        <div class="text-center card_package_subtitle"> All India Database Accessos </div>
+                        <div class="text-center card_package_subtitle"> +2 Premium Job Posting </div>
 
                       </div>
                       <div class="card-body">
-                       <h2 class="card-subtitle mb-2 text-muted text-center">
+                       <h2 class="card-subtitle mb-2 text-muted text-center card-job-pirce">
                          <span class="currency_sym_card text-success"><i class="fa fa-inr" aria-hidden="true"></i></span><span class="text-success">6499</span>
                        </h2>
 
@@ -418,12 +418,12 @@
                      <div class="text-center card_package_title">
                        <span><b>15 DAYS</b></span>
                      </div>
-                     <div class="text-center card_package_subtitle"> <small class="text-muted text-center">All India Database Accessos</small> </div>
-                     <div class="text-center card_package_subtitle"> <small class="text-muted text-center">+3 Premium Job Posting</small> </div>
+                     <div class="text-center card_package_subtitle"> All India Database Accessos</div>
+                     <div class="text-center card_package_subtitle"> +3 Premium Job Posting </div>
 
                    </div>
                    <div class="card-body">
-                    <h2 class="card-subtitle mb-2 text-muted text-center">
+                    <h2 class="card-subtitle mb-2 text-muted text-center card-job-pirce">
                       <span class="currency_sym_card text-success"><i class="fa fa-inr" aria-hidden="true"></i></span><span class="text-success">9499</span>
                     </h2>
 
@@ -443,12 +443,12 @@
                    <div class="text-center card_package_title">
                      <span><b>30 DAYS</b></span>
                    </div>
-                   <div class="text-center card_package_subtitle"> <small class="text-muted text-center">All India Database Accessos</small> </div>
-                   <div class="text-center card_package_subtitle"> <small class="text-muted text-center">+4 Premium Job Posting</small> </div>
+                   <div class="text-center card_package_subtitle"> All India Database Accessos </div>
+                   <div class="text-center card_package_subtitle"> +4 Premium Job Posting </div>
 
                  </div>
                  <div class="card-body">
-                  <h2 class="card-subtitle mb-2 text-muted text-center">
+                  <h2 class="card-subtitle mb-2 text-muted text-center card-job-pirce">
                     <span class="currency_sym_card text-success"><i class="fa fa-inr" aria-hidden="true"></i></span><span class="text-success">2499</span>
                   </h2>
 
@@ -475,13 +475,73 @@
     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
 
      <div class="container"><div class="row">
-       <div class="col-md-10 offset-1">
+       <div class="col-md-12">
 
 
          <div class="row main_content row_card-desk-mt">
           <div class="col-md-7">
-            <br>
-            <h4>Find the <b>Right Solution</b> for your hiring needs</h4>
+            <table class="table  content_tbl" >
+
+              <tbody>
+                <tr >
+                  <td colspan="2" class="content_tabl"><h4>Find the <b>Right Solution</b> for your hiring needs</h4></td>
+                </tr>
+                <tr>
+                  <td width="1%"  class="content_tabl text-center">
+                     <div class="icon light check-icon"></div>
+                  </td>
+                  <td width="99%" class="content_tabl">
+
+                    
+    <div class="icon light expand-icon"></div>
+    
+ 
+                    <p class="customized-sol-text">
+
+
+                     Post <b style="font-weight: bold">Jobs</b> viewed by millions of jobseekers and manage
+                     applications on Monster's <b style="font-weight: bold">Application Management System</b></p>
+                   </td>
+
+                 </tr>
+                 <tr>
+                  <td class="content_tabl"><span class="icon light check-icon"></span></td>
+                  <td class="content_tabl">
+                   <p class="customized-sol-text">
+
+                     Buy <b style="font-weight: bold">Database Access</b> & <b style="font-weight: bold">Resume View</b> based on your needs</p>
+                   </td>
+
+                 </tr>
+                 <tr>
+                  <td class="content_tabl"><span class="icon light check-icon"></span></td>
+                  <td class="content_tabl">
+                    <p class="customized-sol-text">
+                     Advertise you <b style="font-weight: bold">Walk-ins</b> with high performing ads on Monster</p>
+                   </td>
+                 </tr>
+
+                 <tr>
+                  <td class="content_tabl"><span class="icon light check-icon"></span></td>
+                  <td class="content_tabl">
+                    <p class="customized-sol-text">
+                    Increase you Brand visibility with a dedicated <b style="font-weight: bold">Company Page</b> on Moster</p>
+                   </td>
+                 </tr>
+
+                 <tr>
+                  <td class="content_tabl"><span class="icon light check-icon"></span></td>
+                  <td class="content_tabl">
+                    <p class="customized-sol-text">
+                    Get you own Career Site & Manage you condidate Database with <b style="font-weight: bold">Career Site Solution</b> From Monster</p>
+                   </td>
+                 </tr>
+
+               </tbody>
+             </table>
+
+
+           <!--  <h4>Find the <b>Right Solution</b> for your hiring needs</h4>
 
             <p class="customized-sol-text">
              <i class="fa fa-check" aria-hidden="true"></i>
@@ -502,7 +562,7 @@
 
                    <p class="customized-sol-text">
                      <i class="fa fa-check" aria-hidden="true"></i>
-                     Get you own Career Site & Manage you condidate Database with <b>Career Site Solution</b> From Monster</p>
+                     Get you own Career Site & Manage you condidate Database with <b>Career Site Solution</b> From Monster</p> -->
                    </div>
 
                    <div class="col-md-5">
@@ -523,7 +583,7 @@
                           <label class="custom_form_label label-phone"  for="formGroupExampleInput2">Mobile</label>
                           <div class="input-group mb-3">
                            <div class="input-group-prepend">
-                            <button class="btn btn-outline-success dropdown-toggle ccode_btn"  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id="c_Code"></span></button>
+                            <button class="btn btn-outline-success dropdown-toggle ccode_btn" style="border-color:#ddd" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id="c_Code"></span></button>
                             <div class="dropdown-menu">
                               <a class="dropdown-item" href="#">+91</a>
                               <a class="dropdown-item" href="#">+971</a>
@@ -587,12 +647,12 @@
 
 
 <div class="col-md-12 main_content faq">
- <h1 class="text-center">
+  <h1 class="text-center faq-heading">
   <br>
   <b>Frequently Asked Questions</b> 
 </h1>
 
-<h6 class="text-center">Explore more about Job Posting Service & Resume Database Access Service</h6>
+<h6 class="text-center faq-subheading">Explore more about Job Posting Service & Resume Database Access Service</h6>
 
 <div class="col-md-12">
 
@@ -660,9 +720,6 @@
 </div>
 </section>
 
-
-
-<br/>
 <h5 class="text-center view-more-faq"><a href="">VIEW MORE</a></h5>
 
 <!-- Model Message -->
@@ -699,8 +756,8 @@
 </button>
 <!-- .modal.show .modal-dialog -->
 <!-- Modal -->
-<div class="modal fade"  id="requestCallBack" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" style="margin-top:50px;"  role="document">
+<div class="modal  fade"  id="requestCallBack" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="margin-top:70px;"  role="document">
     <div class="modal-content">
       <div class="" style="margin-right: 15px; margin-top: 10px;">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -708,12 +765,12 @@
         </button>
       </div>
       <div class="modal-body" >
-        <h4 class="text-center">Didn't get what you were looking for?</h4>
-        <h5 class="text-center" style="color:#666">Share your details & our executive will connect with you</h5>
+        <div class="text-center popup-maintitle">Didn't get what you were looking for?</div>
+        <div class="text-center popup-subtitle">Share your details & our executive will connect with you</div>
 
 
         <form>
-          <div class="row">
+          <div class="row" style="margin-top: 20px; margin-right: 20px; margin-left: 20px;">
             <div class="col-md-8 offset-2">
               <div class="form-group">
                 <label class="custom_form_label" for="formGroupExampleInput2">Orgnisation</label>
@@ -755,8 +812,9 @@
                 <input type="text" class="form-control"  id="formGroupExampleInput" placeholder="Your full name">
               </div>
               <div class="text-center">
-                <input type="submit" class="btn btn-success" value="REQUEST A CALL BACK" id="formGroupExampleInput2">
+                <input type="submit" class="btn btn-success " value="REQUEST A CALL BACK" style="margin-top:10px; padding-top: 12px; padding-bottom: 12px; padding-right: 40px; font-size: 14px; padding-left: 40px" id="formGroupExampleInput2">
               </div>
+              <br/>
             </div>
           </div>
         </form>
@@ -924,7 +982,7 @@
     $('#country_contact_phone').html('+91 4066116146');
     $('#Country_contact_details').html('<a href="tel:4066116146">+91-40-66116146<a>  / <a href="tel:4066116309">+91-40-66116309</a>');
     $('#ist_time_details').html('(Mon - Fri 9:30 AM to 6:30 PM IST)');
-
+    $('#c_Code').html('+91');
     $(document).on('click', '#select_country', function(e){
       e.preventDefault();
 

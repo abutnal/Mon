@@ -24,6 +24,7 @@ $(document).ready(function(){
  else{
   // Ajax calling.  	
    console.log('Validation success');
+   $('#submitForm')[0].reset();
 } 
 });
 
@@ -140,7 +141,13 @@ $(document).on('keyup', '#input-phone', function(){
 	else {                   
 		var charactersLeft = maxLimit - lengthCount;                   
 	}
-	$('.label-phone').html('Enter valid phone number <span class="phonecount"><b>'+ charactersLeft +'</b></span>');
+	if(charactersLeft=='1'){
+		var more = 'more digit';
+	}
+	else{
+		more = 'more digits';
+	}
+	$('.label-phone').html('Enter valid phone number. <span class="phonecount"><b>'+ charactersLeft +'</b> '+ more +'</span>');
 	check_phone();	
 });
 
@@ -160,12 +167,27 @@ $(document).ready(function(){
 	$("#input-name").keypress(function(event){
 		var inputValue = event.which;
         // allow letters and whitespaces only.
-        if(!(inputValue >= 65 && inputValue <= 122) && (inputValue != 32 && inputValue != 0)) { 
+        if(!(inputValue >= 65 && inputValue <= 90 || inputValue>=97 && inputValue<=122) && (inputValue != 32 && inputValue != 0) && (inputValue!=46) && (inputValue!=39)) { 
         	event.preventDefault(); 
         }
+
+        
     });
 });
 
+
+// Alphabets validation.
+$(document).ready(function(){
+	$("#input-orgnisation").keypress(function(event){
+		var inputValue = event.which;
+        // allow letters and whitespaces only.
+        if(!(inputValue >= 65 && inputValue <= 90 || inputValue>=97 && inputValue<=122) && (inputValue != 32 && inputValue != 0) && (inputValue!=46) && (inputValue!=39)) { 
+        	event.preventDefault(); 
+        }
+
+        
+    });
+});
 
 function capitalize_Words(data)
 {
@@ -184,7 +206,7 @@ $(document).on('keyup', '#input-name', function(){
 		$('#input-name').addClass('green_bcolor');
 		$('.label-name').addClass('green_label_val');
 
-		var maxLimit = 30;
+		var maxLimit = 50;
 		var lengthCount = this.value.length;              
 		if (lengthCount > maxLimit) {
 			this.value = this.value.substring(0, maxLimit);
@@ -206,7 +228,7 @@ $(document).on('keyup', '#input-orgnisation', function(){
 		$('#input-orgnisation').addClass('green_bcolor');
 		$('.label-orgnisation').addClass('green_label_val');
 
-		var maxLimit = 30;
+		var maxLimit = 50;
 		var lengthCount = this.value.length;              
 		if (lengthCount > maxLimit) {
 			this.value = this.value.substring(0, maxLimit);
